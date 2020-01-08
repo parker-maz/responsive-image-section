@@ -18,13 +18,18 @@ html {
 @viewport { width: device-width; scale: 1; }
 
 body {
-  margin: 2.5rem 1rem;
+  margin: 0;
+  padding: 2rem 1rem;
   background-color: #e2e2e2;
 }
 
 section {
   display: flex;
   flex-wrap: wrap;
+}
+
+.stuffs {
+  max-width: 50em;
 }
 
 h1 {
