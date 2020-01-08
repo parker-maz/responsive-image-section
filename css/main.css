@@ -18,7 +18,7 @@ html {
 @viewport { width: device-width; scale: 1; }
 
 body {
-  margin: 2rem .75rem;
+  margin: 2.5rem 1rem;
   background-color: #e2e2e2;
 }
 
@@ -93,10 +93,6 @@ p {
   html {
     font-size: 120%;
     line-height: 1.5;
-  }
-
-  body {
-    margin: 2.5rem 1rem;
   }
 
   .stuffs {
