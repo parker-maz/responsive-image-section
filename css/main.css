@@ -48,6 +48,10 @@ a {
   border-radius: 4px;
 }
 
+a:hover {
+  background-color: #000;
+}
+
 p {
   margin: 0;
 }
