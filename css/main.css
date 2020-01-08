@@ -26,9 +26,6 @@ body {
 section {
   display: flex;
   flex-wrap: wrap;
-}
-
-.stuffs {
   max-width: 50em;
 }
 
@@ -100,8 +97,27 @@ p {
     line-height: 1.5;
   }
 
+  body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  section {
+    margin: 0;
+  }
+
   .stuffs {
     padding-right: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
   }
 
 }
